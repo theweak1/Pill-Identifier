@@ -1,0 +1,17 @@
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Pill Identifier.exe
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Pill Identifier.exe.config
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.addPill.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.HelpContents.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.Login.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.menuForm.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.ModifyPill.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.pillIdentifier.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.pillReport.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.Properties.Resources.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.Register.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.csproj.GenerateResource.cache
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.csproj.CoreCompileInputs.cache
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.exe
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.pdb
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Pill Identifier.pdb
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.csprojAssemblyReference.cache
