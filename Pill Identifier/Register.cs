@@ -23,5 +23,13 @@ namespace Pill_Identifier
             seccion.Show();
             this.Close();
         }
+
+        private void clear_button_Click(object sender, EventArgs e)
+        {
+            firstName_value.Clear();
+            lastName_value.Clear();
+            userName_value.Clear();
+            password_value.Clear();
+        }
     }
 }

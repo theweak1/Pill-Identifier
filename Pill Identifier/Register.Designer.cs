@@ -37,6 +37,7 @@
             this.password_value = new System.Windows.Forms.TextBox();
             this.password_label = new System.Windows.Forms.Label();
             this.register_button = new System.Windows.Forms.Button();
+            this.clear_button = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // firstName_label
@@ -105,7 +106,7 @@
             // 
             // register_button
             // 
-            this.register_button.Location = new System.Drawing.Point(70, 199);
+            this.register_button.Location = new System.Drawing.Point(37, 199);
             this.register_button.Name = "register_button";
             this.register_button.Size = new System.Drawing.Size(75, 23);
             this.register_button.TabIndex = 8;
@@ -113,11 +114,22 @@
             this.register_button.UseVisualStyleBackColor = true;
             this.register_button.Click += new System.EventHandler(this.register_button_Click);
             // 
+            // clear_button
+            // 
+            this.clear_button.Location = new System.Drawing.Point(118, 199);
+            this.clear_button.Name = "clear_button";
+            this.clear_button.Size = new System.Drawing.Size(75, 23);
+            this.clear_button.TabIndex = 9;
+            this.clear_button.Text = "Clear";
+            this.clear_button.UseVisualStyleBackColor = true;
+            this.clear_button.Click += new System.EventHandler(this.clear_button_Click);
+            // 
             // Register
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(236, 255);
+            this.Controls.Add(this.clear_button);
             this.Controls.Add(this.register_button);
             this.Controls.Add(this.password_label);
             this.Controls.Add(this.password_value);
@@ -145,5 +157,6 @@
         private System.Windows.Forms.TextBox password_value;
         private System.Windows.Forms.Label password_label;
         private System.Windows.Forms.Button register_button;
+        private System.Windows.Forms.Button clear_button;
     }
 }
