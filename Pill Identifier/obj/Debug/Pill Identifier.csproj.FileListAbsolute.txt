@@ -15,3 +15,4 @@ C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identif
 C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.pdb
 C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Pill Identifier.pdb
 C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.csprojAssemblyReference.cache
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.About.resources

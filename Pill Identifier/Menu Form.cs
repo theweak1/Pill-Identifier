@@ -22,6 +22,7 @@ namespace Pill_Identifier
             this.Hide();
             addPill add = new addPill();
             add.ShowDialog();
+            
         }
 
         private void ModifyPill_button_Click(object sender, EventArgs e)
@@ -29,13 +30,15 @@ namespace Pill_Identifier
             this.Hide();
             ModifyPill modify = new ModifyPill();
             modify.ShowDialog();
+            
         }
 
         private void PillIdentifier_button_Click(object sender, EventArgs e)
         {
             this.Hide();
-           pillIdentifier identify = new pillIdentifier();
+            pillIdentifier identify = new pillIdentifier();
             identify.ShowDialog();
+            
         }
 
         private void PillReport_button_Click(object sender, EventArgs e)
@@ -43,6 +46,7 @@ namespace Pill_Identifier
             this.Hide();
             pillReport report = new pillReport();
             report.ShowDialog();
+            
         }
 
         private void ExitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -54,6 +58,12 @@ namespace Pill_Identifier
         {
             HelpContents help = new HelpContents();
             help.ShowDialog();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About info = new About();
+            info.ShowDialog();
         }
     }
 }

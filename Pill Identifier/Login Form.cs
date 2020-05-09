@@ -25,9 +25,11 @@ namespace Pill_Identifier
             }
             else
             {
+                this.Hide();
                 menuForm Menu = new menuForm();
                 Menu.ShowDialog();
-                this.Close();
+                
+               
             }
         }
 
