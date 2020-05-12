@@ -76,5 +76,10 @@ namespace Pill_Identifier
             About info = new About();
             info.ShowDialog();
         }
+
+       /*
+        * TODO
+        * 1. make folder dialog to be able to add picture of pill
+        */
     }
 }

@@ -16,5 +16,10 @@ namespace Pill_Identifier
         {
             InitializeComponent();
         }
+        /*
+         * TODO
+         * 1. make content refering how to help the user which each page
+         * 2. Organize it by order of the pages
+         */
     }
 }

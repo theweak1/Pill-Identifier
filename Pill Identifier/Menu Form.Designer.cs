@@ -43,7 +43,7 @@
             // 
             // AddPill_button
             // 
-            this.AddPill_button.Location = new System.Drawing.Point(57, 27);
+            this.AddPill_button.Location = new System.Drawing.Point(81, 26);
             this.AddPill_button.Name = "AddPill_button";
             this.AddPill_button.Size = new System.Drawing.Size(75, 23);
             this.AddPill_button.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             // ModifyPill_button
             // 
-            this.ModifyPill_button.Location = new System.Drawing.Point(57, 70);
+            this.ModifyPill_button.Location = new System.Drawing.Point(81, 67);
             this.ModifyPill_button.Name = "ModifyPill_button";
             this.ModifyPill_button.Size = new System.Drawing.Size(75, 23);
             this.ModifyPill_button.TabIndex = 1;
@@ -68,7 +68,7 @@
             this.HelpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(196, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(222, 24);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -99,20 +99,20 @@
             // helpContentsToolStripMenuItem
             // 
             this.helpContentsToolStripMenuItem.Name = "helpContentsToolStripMenuItem";
-            this.helpContentsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.helpContentsToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.helpContentsToolStripMenuItem.Text = "Help Contents";
             this.helpContentsToolStripMenuItem.Click += new System.EventHandler(this.HelpContentsToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // PillIdentifier_button
             // 
-            this.PillIdentifier_button.Location = new System.Drawing.Point(57, 108);
+            this.PillIdentifier_button.Location = new System.Drawing.Point(81, 108);
             this.PillIdentifier_button.Name = "PillIdentifier_button";
             this.PillIdentifier_button.Size = new System.Drawing.Size(75, 23);
             this.PillIdentifier_button.TabIndex = 3;
@@ -122,7 +122,7 @@
             // 
             // PillReport_button
             // 
-            this.PillReport_button.Location = new System.Drawing.Point(57, 150);
+            this.PillReport_button.Location = new System.Drawing.Point(81, 149);
             this.PillReport_button.Name = "PillReport_button";
             this.PillReport_button.Size = new System.Drawing.Size(75, 23);
             this.PillReport_button.TabIndex = 4;
@@ -134,7 +134,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(196, 185);
+            this.ClientSize = new System.Drawing.Size(222, 185);
             this.Controls.Add(this.PillReport_button);
             this.Controls.Add(this.PillIdentifier_button);
             this.Controls.Add(this.ModifyPill_button);

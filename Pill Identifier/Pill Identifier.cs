@@ -16,5 +16,58 @@ namespace Pill_Identifier
         {
             InitializeComponent();
         }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void modifyPillToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ModifyPill modify = new ModifyPill();
+            modify.ShowDialog();
+        }
+
+        private void addPillToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            addPill add = new addPill();
+            add.ShowDialog();
+        }
+
+        private void pillReportToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            pillReport report = new pillReport();
+            report.ShowDialog();
+        }
+
+        private void helpContentsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            HelpContents help = new HelpContents();
+            help.ShowDialog();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            About info = new About();
+            info.ShowDialog();
+        }
     }
 }

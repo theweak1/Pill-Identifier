@@ -30,11 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pillIdentifierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pillReportToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.helpContentsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.drugName_label = new System.Windows.Forms.Label();
@@ -47,9 +47,9 @@
             this.color_value = new System.Windows.Forms.TextBox();
             this.shape_label = new System.Windows.Forms.Label();
             this.shape_value = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.add_button = new System.Windows.Forms.Button();
             this.clear_button = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -76,6 +76,34 @@
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
             // 
+            // menuToolStripMenuItem
+            // 
+            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
+            this.menuToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.menuToolStripMenuItem.Text = "Modify Pill";
+            this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
+            // 
+            // pillIdentifierToolStripMenuItem
+            // 
+            this.pillIdentifierToolStripMenuItem.Name = "pillIdentifierToolStripMenuItem";
+            this.pillIdentifierToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.pillIdentifierToolStripMenuItem.Text = "Pill Identifier";
+            this.pillIdentifierToolStripMenuItem.Click += new System.EventHandler(this.pillIdentifierToolStripMenuItem_Click);
+            // 
+            // pillReportToolStripMenuItem
+            // 
+            this.pillReportToolStripMenuItem.Name = "pillReportToolStripMenuItem";
+            this.pillReportToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.pillReportToolStripMenuItem.Text = "Pill Report";
+            this.pillReportToolStripMenuItem.Click += new System.EventHandler(this.pillReportToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
             // helpToolStripMenuItem
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -85,45 +113,17 @@
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "Help";
             // 
-            // menuToolStripMenuItem
-            // 
-            this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
-            this.menuToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.menuToolStripMenuItem.Text = "Modify Pill";
-            this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
-            // 
-            // pillIdentifierToolStripMenuItem
-            // 
-            this.pillIdentifierToolStripMenuItem.Name = "pillIdentifierToolStripMenuItem";
-            this.pillIdentifierToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pillIdentifierToolStripMenuItem.Text = "Pill Identifier";
-            this.pillIdentifierToolStripMenuItem.Click += new System.EventHandler(this.pillIdentifierToolStripMenuItem_Click);
-            // 
-            // pillReportToolStripMenuItem
-            // 
-            this.pillReportToolStripMenuItem.Name = "pillReportToolStripMenuItem";
-            this.pillReportToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.pillReportToolStripMenuItem.Text = "Pill Report";
-            this.pillReportToolStripMenuItem.Click += new System.EventHandler(this.pillReportToolStripMenuItem_Click);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
             // helpContentsToolStripMenuItem
             // 
             this.helpContentsToolStripMenuItem.Name = "helpContentsToolStripMenuItem";
-            this.helpContentsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.helpContentsToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.helpContentsToolStripMenuItem.Text = "Help Contents";
             this.helpContentsToolStripMenuItem.Click += new System.EventHandler(this.helpContentsToolStripMenuItem_Click);
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(150, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -207,14 +207,6 @@
             this.shape_value.Size = new System.Drawing.Size(80, 20);
             this.shape_value.TabIndex = 10;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(268, 37);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(215, 135);
-            this.pictureBox1.TabIndex = 11;
-            this.pictureBox1.TabStop = false;
-            // 
             // add_button
             // 
             this.add_button.Location = new System.Drawing.Point(101, 221);
@@ -235,14 +227,22 @@
             this.clear_button.UseVisualStyleBackColor = true;
             this.clear_button.Click += new System.EventHandler(this.clear_button_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(268, 37);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(171, 106);
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
+            // 
             // addPill
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(520, 276);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.clear_button);
             this.Controls.Add(this.add_button);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.shape_value);
             this.Controls.Add(this.shape_label);
             this.Controls.Add(this.color_value);
@@ -286,8 +286,8 @@
         private System.Windows.Forms.TextBox color_value;
         private System.Windows.Forms.Label shape_label;
         private System.Windows.Forms.TextBox shape_value;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button add_button;
         private System.Windows.Forms.Button clear_button;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
