@@ -16,3 +16,27 @@ C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identif
 C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Pill Identifier.pdb
 C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.csprojAssemblyReference.cache
 C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill_Identifier.About.resources
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Google.Protobuf.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\MySql.Data.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Renci.SshNet.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Buffers.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Memory.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Zstandard.Net.dll
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Google.Protobuf.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\MySql.Data.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\Renci.SshNet.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Buffers.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Memory.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.csproj.CopyComplete

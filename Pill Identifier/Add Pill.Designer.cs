@@ -132,13 +132,13 @@
             this.drugName_label.AutoSize = true;
             this.drugName_label.Location = new System.Drawing.Point(13, 37);
             this.drugName_label.Name = "drugName_label";
-            this.drugName_label.Size = new System.Drawing.Size(36, 13);
+            this.drugName_label.Size = new System.Drawing.Size(67, 13);
             this.drugName_label.TabIndex = 1;
-            this.drugName_label.Text = "Drug: ";
+            this.drugName_label.Text = "Drug Name: ";
             // 
             // drugName_value
             // 
-            this.drugName_value.Location = new System.Drawing.Point(56, 37);
+            this.drugName_value.Location = new System.Drawing.Point(76, 34);
             this.drugName_value.Name = "drugName_value";
             this.drugName_value.Size = new System.Drawing.Size(100, 20);
             this.drugName_value.TabIndex = 2;
@@ -190,6 +190,7 @@
             this.color_value.Name = "color_value";
             this.color_value.Size = new System.Drawing.Size(100, 20);
             this.color_value.TabIndex = 8;
+            this.color_value.TextChanged += new System.EventHandler(this.color_value_TextChanged);
             // 
             // shape_label
             // 

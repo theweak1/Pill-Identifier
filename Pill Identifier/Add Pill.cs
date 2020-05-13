@@ -57,10 +57,14 @@ namespace Pill_Identifier
 
         private void add_button_Click(object sender, EventArgs e)
         {
-            string pillImprint = pillImprint_value.Text;
+            int pillImprint = int.Parse(pillImprint_value.Text);
+            string pillName = drugName_value.Text;
+            double pillStrength = Double.Parse(strength_value.Text);
+            string pillShape = shape_value.Text;
+            string pillColor = color_value.Text;
 
 
-            PillIdentifier pill = new PillIdentifier(); 
+            PillIdentifier pill = new PillIdentifier(pillImprint, pillColor, pillShape, pillName, pillStrength); 
 
 
         }
@@ -77,9 +81,14 @@ namespace Pill_Identifier
             info.ShowDialog();
         }
 
-       /*
-        * TODO
-        * 1. make folder dialog to be able to add picture of pill
-        */
+        private void color_value_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        /*
+         * TODO
+         * 1. make folder dialog to be able to add picture of pill
+         */
     }
 }

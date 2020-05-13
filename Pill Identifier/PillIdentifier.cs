@@ -28,6 +28,19 @@ namespace Pill_Identifier
             this.date = new DateTime();
         }
 
+        public PillIdentifier(int imprint, string color, string shape, string name, double strenght)
+        {
+            this.PillImprint = imprint;
+            this.PillColor = color;
+            this.PillShape = shape;
+            this.DrugName = name;
+            this.DrugStrenght = strenght;
+            this.date = new DateTime();
+
+
+        }
+        
+
         public int PillImprint { get => pillImprint; set => pillImprint = value; }
         public string PillColor { get => pillColor; set => pillColor = value; }
         public string PillShape { get => pillShape; set => pillShape = value; }
