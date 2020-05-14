@@ -40,3 +40,44 @@ C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Memor
 C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\lenie\Desktop\C#\Pill Identifier\Pill Identifier\obj\Debug\Pill Identifier.csproj.CopyComplete
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\Pill Identifier.exe.config
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\Pill Identifier.exe
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\Pill Identifier.pdb
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\Google.Protobuf.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\MySql.Data.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\Renci.SshNet.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\System.Buffers.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\System.Memory.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\Zstandard.Net.dll
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\Google.Protobuf.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\MySql.Data.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\Renci.SshNet.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\System.Buffers.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\System.Memory.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill Identifier.csprojAssemblyReference.cache
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.About.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.addPill.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.HelpContents.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.Login.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.menuForm.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.ModifyPill.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.pillIdentifier.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.pillReport.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.Properties.Resources.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill_Identifier.Register.resources
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill Identifier.csproj.GenerateResource.cache
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill Identifier.csproj.CopyComplete
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill Identifier.exe
+C:\Users\janmm\Documents\University\Politecnica\C# Programming\Advanced Programming\Final Porject\Pill-Identifier\Pill Identifier\obj\Debug\Pill Identifier.pdb

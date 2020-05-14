@@ -57,14 +57,17 @@ namespace Pill_Identifier
 
         private void add_button_Click(object sender, EventArgs e)
         {
-            int pillImprint = int.Parse(pillImprint_value.Text);
-            string pillName = drugName_value.Text;
-            double pillStrength = Double.Parse(strength_value.Text);
-            string pillShape = shape_value.Text;
+            string pillImprint = pillImprint_value.Text;
             string pillColor = color_value.Text;
+            string pillShape = shape_value.Text;
+            string pillName = drugName_value.Text;
+            string pillStrength = strength_value.Text;
+            PillDB database = new PillDB();
+            
+            PillIdentifier pill = new PillIdentifier(pillImprint, pillColor, pillShape, pillName, pillStrength, "Intento1.png");
 
+            database.InsertPill(pill);
 
-            PillIdentifier pill = new PillIdentifier(pillImprint, pillColor, pillShape, pillName, pillStrength); 
 
 
         }
@@ -82,6 +85,11 @@ namespace Pill_Identifier
         }
 
         private void color_value_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

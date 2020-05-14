@@ -18,18 +18,7 @@ namespace Pill_Identifier
             modify_container.Hide();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if(imprint_value.Text == "hi") // change hi for what ever the database suppose to be
-            {
-                search_container.Hide();
-                modify_container.Show();
-            }
-            else
-            {
-                MessageBox.Show("That imprint you have entered is not in the data base");
-            }
-        }
+       
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -67,6 +56,31 @@ namespace Pill_Identifier
         {
             About info = new About();
             info.ShowDialog();
+        }
+
+        private void Save_Clck(object sender, EventArgs e)
+        {
+
+           
+
+        }
+
+        private void Search_Click(object sender, EventArgs e)
+        {
+
+            if (imprint_value.Text == "hi") // change hi for what ever the database suppose to be
+            {
+                search_container.Hide();
+
+
+
+                modify_container.Show();
+            }
+            else
+            {
+                MessageBox.Show("That imprint you have entered is not in the data base");
+            }
+
         }
     }
 }

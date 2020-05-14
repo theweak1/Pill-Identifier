@@ -19,6 +19,7 @@ namespace Pill_Identifier
 
         private void Login_button_Click(object sender, EventArgs e)
         {
+            
             if (userName_value.Text != "user" && password_value.Text != "password")
             {
                 MessageBox.Show("username or password is incorrect...");
@@ -28,7 +29,6 @@ namespace Pill_Identifier
                 this.Hide();
                 menuForm Menu = new menuForm();
                 Menu.ShowDialog();
-                
                
             }
         }
