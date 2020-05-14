@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.Globalization;
 using MySql.Data.MySqlClient;
 
 namespace Pill_Identifier
@@ -16,6 +17,7 @@ namespace Pill_Identifier
         private string drugStrenght;
         private string pillPhoto;
         private DateTime date;
+        
 
         
            
@@ -51,20 +53,30 @@ namespace Pill_Identifier
         public string DrugStrenght { get => drugStrenght; set => drugStrenght = value; }
         public DateTime Date { get => date; set => date = value; }
         public string PillPhoto { get => pillPhoto; set => pillPhoto = value; }
+     
 
-        
-        public void IdentifyPill(string pillImprint)
+        public bool IdentifyPill(string pillImprint)
         {
             PillDB database = new PillDB();
             PillDB FoundPill = database.SearchForAPill(pillImprint);
 
+            Console.WriteLine("Found it: " + FoundPill.PillColor);
+
+            if (FoundPill != null)
+            {
             this.PillImprint = FoundPill.PillImprint;
             this.PillColor = FoundPill.PillColor;
             this.PillShape = FoundPill.PillShape;
             this.DrugName = FoundPill.DrugName;
             this.DrugStrenght = FoundPill.DrugStrength;
             this.PillPhoto = FoundPill.PillPhoto;
-            this.date = FoundPill.Date;
+            this.date = DateTime.ParseExact(FoundPill.Date, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture); ;
+                return true;
+            }
+
+            return false;
+
+
 
         }
 

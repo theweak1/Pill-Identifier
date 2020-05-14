@@ -12,7 +12,7 @@ namespace Pill_Identifier
         private string drugName;
         private string drugStrength;
         private string pillPhoto;
-        private DateTime date;
+        private string date;
 
         private MySqlConnection conn;
 
@@ -22,7 +22,7 @@ namespace Pill_Identifier
         public string DrugName { get => drugName; set => drugName = value; }
         public string DrugStrength { get => drugStrength; set => drugStrength = value; }
         public string PillPhoto { get => pillPhoto; set => pillPhoto = value; }
-        public DateTime Date { get => date; set => date = value; }
+        public string Date { get => date; set => date = value; }
 
         public PillDB()
         {
@@ -31,7 +31,7 @@ namespace Pill_Identifier
             conn.Open();
         }
 
-        public PillDB(string pillImprint, string pillColor, string pillShape, string drugName, string drugStrength, string pillPhoto, DateTime time)
+        public PillDB(string pillImprint, string pillColor, string pillShape, string drugName, string drugStrength, string pillPhoto, string time)
         {
             PillImprint = pillImprint;
             PillColor = pillColor;
@@ -54,7 +54,7 @@ namespace Pill_Identifier
             {
                 PillDB record = new PillDB(reader.GetString("pill_imprint"), reader.GetString("pill_color"),
                     reader.GetString("pill_shape"), reader.GetString("drug_name"), reader.GetString("drug_strength"),
-                    reader.GetString("pill_photo"), reader.GetDateTime("creation_date"));
+                    reader.GetString("pill_photo"), reader.GetString("creation_date"));
 
                 records.Add(record);
             }
@@ -74,9 +74,9 @@ namespace Pill_Identifier
 
             while (reader.Read())
             {
-                record = new PillDB(reader.GetString(" pill_imprint"), reader.GetString("pill_color"),
+                record = new PillDB(reader.GetString("pill_imprint"), reader.GetString("pill_color"),
                     reader.GetString("pill_shape"), reader.GetString("drug_name"), reader.GetString("drug_strength"),
-                    reader.GetString("pill_photo"), reader.GetDateTime("creation_date"));
+                    reader.GetString("pill_photo"), reader.GetString("creation_date"));
             }
 
             reader.Close();
@@ -89,8 +89,6 @@ namespace Pill_Identifier
                 " VALUES(@pill_imprint, @pill_color, @pill_shape, @drug_name, @drug_strength, @pill_photo, @creation_date) ";
             var cmd = new MySqlCommand(sql, conn);
             
-            //Testing purposes
-            Console.WriteLine("Today is: " + record.Date.ToUniversalTime());
 
             cmd.Parameters.AddWithValue("@pill_imprint", record.PillImprint);
             cmd.Parameters.AddWithValue("@pill_color", record.PillColor);
@@ -98,7 +96,7 @@ namespace Pill_Identifier
             cmd.Parameters.AddWithValue("@drug_name", record.DrugName);
             cmd.Parameters.AddWithValue("@drug_strength", record.DrugStrenght);
             cmd.Parameters.AddWithValue("@pill_photo", record.PillPhoto);
-            cmd.Parameters.AddWithValue("@creation_date", record.Date);
+            cmd.Parameters.AddWithValue("@creation_date", record.Date.ToString());
 
             cmd.Prepare();
             cmd.ExecuteNonQuery();
@@ -116,7 +114,7 @@ namespace Pill_Identifier
             cmd.Parameters.AddWithValue("@drug_name", record.DrugName);
             cmd.Parameters.AddWithValue("@drug_strength", record.DrugStrenght);
             cmd.Parameters.AddWithValue("@pill_photo", record.PillPhoto);
-            cmd.Parameters.AddWithValue("@creation_date", record.Date);
+            cmd.Parameters.AddWithValue("@creation_date", record.Date.ToString());
 
             cmd.Prepare();
             cmd.ExecuteNonQuery();

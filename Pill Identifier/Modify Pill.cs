@@ -60,20 +60,30 @@ namespace Pill_Identifier
 
         private void Save_Clck(object sender, EventArgs e)
         {
+            PillDB database = new PillDB();
+            PillIdentifier pill = new PillIdentifier(imprint_value.Text, resultColor_value.Text, resultShape_value.Text,
+                resultDrugName_value.Text, resultStrength_value.Text, "Testing.png");
 
-           
+
+            database.UpdatePet(pill);
 
         }
 
         private void Search_Click(object sender, EventArgs e)
         {
 
-            if (imprint_value.Text == "hi") // change hi for what ever the database suppose to be
+            PillIdentifier pill = new PillIdentifier();
+
+            if (pill.IdentifyPill(imprint_value.Text)) // change hi for what ever the database suppose to be
             {
+                resultDrugName_value.Text = pill.DrugName;
+                resultImprint_value.Text = pill.PillImprint;
+                resultStrength_value.Text = pill.DrugStrenght;
+                resultColor_value.Text = pill.PillColor;
+                resultShape_value.Text = pill.PillShape;
+                pictureBox1.AccessibleName = pill.PillPhoto;
+
                 search_container.Hide();
-
-
-
                 modify_container.Show();
             }
             else
