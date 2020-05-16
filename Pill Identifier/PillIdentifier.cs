@@ -70,7 +70,7 @@ namespace Pill_Identifier
             this.DrugName = FoundPill.DrugName;
             this.DrugStrenght = FoundPill.DrugStrength;
             this.PillPhoto = FoundPill.PillPhoto;
-            this.date = DateTime.ParseExact(FoundPill.Date, "yyyy-MM-dd HH:mm", CultureInfo.InvariantCulture); ;
+                this.date = DateTime.Parse(FoundPill.Date); 
                 return true;
             }
 
